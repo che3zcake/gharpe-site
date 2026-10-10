@@ -22,7 +22,7 @@
 <body>
 <main>
   <h1>GharPe Privacy Policy</h1>
-  <p class="meta">Last updated: 28 September 2026</p>
+  <p class="meta">Last updated: 10 October 2026</p>
 
   <p class="note">GharPe is in <strong>private testing</strong>. It is not open to the public, and no real money
   moves through it. We will update this page before GharPe handles real payments.</p>
@@ -35,15 +35,23 @@
   <ul>
     <li><strong>Your WhatsApp number and profile name</strong>, which WhatsApp shares with us when you message GharPe.</li>
     <li><strong>The messages you send to GharPe</strong> and the replies we send you.</li>
-    <li><strong>Details you enter on GharPe's own secure pages</strong>, such as your name and a recipient's details.</li>
+    <li><strong>Your account details</strong>, which you enter on GharPe's own secure pages: your legal name, email
+      address and phone number, and a password, which GharPe stores only in scrambled (hashed) form.</li>
+    <li><strong>Your recipients' details</strong>: their name, address, bank account number (or UPI ID) and IFSC code.
+      GharPe keeps only a masked copy of the account number.</li>
   </ul>
-  <p>GharPe never asks for full card numbers, bank account numbers or ID numbers inside WhatsApp. If you type one
-  into the chat anyway, GharPe removes it before saving the conversation.</p>
+  <p>GharPe never asks for card numbers, passwords, PINs, one-time codes or ID numbers inside WhatsApp. For now,
+  when you add a new recipient, GharPe asks for their bank account number and IFSC code in the chat, one question
+  at a time; this will move to a secure WhatsApp form. GharPe saves the conversation with card, account and ID
+  numbers masked.</p>
 
   <h2>How we use it</h2>
   <ul>
     <li>To reply to you and carry out what you ask for in the conversation.</li>
-    <li>To send you updates about a transfer you started. Reply <strong>stop</strong> at any time to turn these off.</li>
+    <li>To send you updates about a transfer you started. Reply <strong>stop</strong> and we stop sending you
+      messages you did not ask for. When you stop, you can choose to keep getting approval requests and results
+      for transfers you started. We always reply to your own messages. Send <strong>start</strong> to turn updates
+      back on.</li>
     <li>To test and improve GharPe.</li>
   </ul>
   <p>We do not sell your information, and we do not use it for advertising.</p>
@@ -52,10 +60,22 @@
   <ul>
     <li><strong>Meta (WhatsApp)</strong>, which carries messages between you and GharPe under
       <a href="https://www.whatsapp.com/legal/privacy-policy">WhatsApp's own privacy policy</a>.</li>
-    <li>Service providers that host GharPe for us, only as needed to run it.</li>
+    <li><strong>Cybrid</strong>, the payment platform GharPe is being tested on, in its test ("sandbox") environment.
+      When you set up a transfer, Cybrid receives your legal name, plus your recipient's name, address, bank
+      account number (or UPI ID) and IFSC code. During testing no real money moves.</li>
+    <li><strong>Persona</strong>, which runs the identity check for Cybrid, and <strong>Plaid</strong>, which links
+      your US bank account for Cybrid. Each receives what you enter on its own screens, such as your ID document,
+      date of birth, address or bank sign-in. GharPe does not see or store those details.</li>
+    <li><strong>OpenRouter</strong>, which passes your message to an AI model, and <strong>TypeSafe</strong>, whose
+      Jev model reads it to work out what you are asking about, such as fees, delivery time or where your transfer
+      is. The model only picks the topic; GharPe writes every reply. It receives up to 300 characters of one
+      message and nothing else: not your name, phone number or account details. It never receives a message from
+      a chat that is not linked to an account, or a message that looks like it holds a card, bank account, ID or
+      UPI number, or a PIN, one-time code, CVV or password. GharPe sends it only on terms under which your message
+      is not kept or used to train AI models.</li>
+    <li><strong>Railway</strong>, which hosts GharPe's servers and database.</li>
     <li>Authorities, where the law requires it.</li>
   </ul>
-  <p>During testing, no bank or payment provider receives your information.</p>
 
   <h2>How long we keep it</h2>
   <p>We keep test data only as long as testing needs it, and delete it when testing ends or when you ask,
